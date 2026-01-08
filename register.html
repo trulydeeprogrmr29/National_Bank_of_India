@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Account</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1><b><center>National Bank Of India</center></b></h1>
+    <div class="logo-container">
+        <img src="logo.png" alt="National Bank of India Logo" style="position: absolute; top: 10px; left: 10px; height: 100px;">
+    </div>
+    <div class="nav-container" style="text-align: right; font-weight: bold; margin-top: 20px;">
+    <a href="/Bank/BankWebpage.html">Home</a>
+    <a href="/Bank/AccountOpening.php">Open A/C</a>
+    <a href="/Bank/login.html">Login</a>
+    <a href="/Bank/Dashboard.php">Dashboard</a>
+   </div>
+    <form style="text-align: center;" action="register_submit.php" method="post">
+        <fieldset>
+            <legend>
+                <h2>Register</h2>
+            </legend>
+            <label>User Name : <br/>
+                <input type="text" name="user_name" required />
+            </label><br/>
+            <label>Password : <br/>
+                <input type="password" name="password" required />
+            </label><br/><br/>
+            <button type="submit">Register</button>
+        </fieldset>
+    </form>
+
+    <footer>
+        <p>&copy; 2025 National Bank of India. All rights reserved.</p>
+        <p>Made with Love by Deepak Chaudhary</p>
+        <p>Contact: support@nbi.com | 1045 (24/7)</p>
+    </footer>
+</body>
+</html>
